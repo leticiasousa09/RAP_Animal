@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_i_animal_leticia unique;
+strict ( 1 );
+
+define behavior for ZI_ANIMAL_LETICIA alias Animais
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) Id;
+}

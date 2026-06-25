@@ -1,0 +1,5 @@
+CLASS zbp_i_animal_leticia DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_animal_leticia.
+ENDCLASS.
+
+CLASS zbp_i_animal_leticia IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition para animais'
+define service ZUI_ANIMAL_LETICIA {
+  expose ZC_ANIMAL_LETICIA;
+}
